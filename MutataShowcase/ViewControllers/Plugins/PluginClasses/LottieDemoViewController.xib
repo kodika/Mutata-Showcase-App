@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LottieDemoViewController" customModule="MutataShowcase" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="iAr-vd-qKZ" id="3kz-oe-qxh"/>
+                <outlet property="lottieAnimationViewContainerView" destination="4GC-Ac-8Gi" id="n6a-La-EYv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iAr-vd-qKZ">
+                    <rect key="frame" x="24" y="68" width="366" height="264"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vYo-lB-Ii4">
+                            <rect key="frame" x="0.0" y="50" width="366" height="1"/>
+                            <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="hky-vT-dfl"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lottie from URL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyI-zb-1Uh">
+                            <rect key="frame" x="24" y="16" width="318" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="eph-Co-Pmy"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4GC-Ac-8Gi">
+                            <rect key="frame" x="0.0" y="51" width="366" height="205"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="vYo-lB-Ii4" firstAttribute="leading" secondItem="iAr-vd-qKZ" secondAttribute="leading" id="1kF-8t-sw3"/>
+                        <constraint firstAttribute="bottom" secondItem="4GC-Ac-8Gi" secondAttribute="bottom" constant="8" id="6CA-3o-YRm"/>
+                        <constraint firstAttribute="trailing" secondItem="4GC-Ac-8Gi" secondAttribute="trailing" id="9xE-Ab-HRM"/>
+                        <constraint firstAttribute="trailing" secondItem="gyI-zb-1Uh" secondAttribute="trailing" constant="24" id="GFI-5Z-RA5"/>
+                        <constraint firstAttribute="height" constant="264" id="PmQ-7Q-GqR"/>
+                        <constraint firstItem="gyI-zb-1Uh" firstAttribute="top" secondItem="iAr-vd-qKZ" secondAttribute="top" constant="16" id="V2P-oi-lfr"/>
+                        <constraint firstItem="4GC-Ac-8Gi" firstAttribute="leading" secondItem="iAr-vd-qKZ" secondAttribute="leading" id="VPe-qs-fwb"/>
+                        <constraint firstAttribute="trailing" secondItem="vYo-lB-Ii4" secondAttribute="trailing" id="Zrv-uo-hXV"/>
+                        <constraint firstItem="4GC-Ac-8Gi" firstAttribute="top" secondItem="vYo-lB-Ii4" secondAttribute="bottom" id="feK-oQ-IJG"/>
+                        <constraint firstItem="vYo-lB-Ii4" firstAttribute="top" secondItem="iAr-vd-qKZ" secondAttribute="top" constant="50" id="lcJ-kD-0jY"/>
+                        <constraint firstItem="gyI-zb-1Uh" firstAttribute="leading" secondItem="iAr-vd-qKZ" secondAttribute="leading" constant="24" id="qgD-wB-vcw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="iAr-vd-qKZ" secondAttribute="trailing" constant="24" id="765-Xk-ixG"/>
+                <constraint firstItem="iAr-vd-qKZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="DAb-LH-Nl2"/>
+                <constraint firstItem="iAr-vd-qKZ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="24" id="biT-PY-E7f"/>
+            </constraints>
+            <point key="canvasLocation" x="-145" y="-21"/>
+        </view>
+    </objects>
+</document>

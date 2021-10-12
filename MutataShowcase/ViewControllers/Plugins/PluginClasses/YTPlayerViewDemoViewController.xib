@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YTPlayerViewDemoViewController" customModule="MutataShowcase" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="Cnf-gi-Z2B" id="Saz-9E-jIh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Im-SS-bHC">
+                    <rect key="frame" x="24" y="68" width="366" height="264"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UKJ-Pz-1CA">
+                            <rect key="frame" x="0.0" y="50" width="366" height="1"/>
+                            <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="wfv-Yg-WBF"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mutata YouTube Video" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tg9-Dw-ARU">
+                            <rect key="frame" x="24" y="16" width="318" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="MaJ-dI-9kO"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cnf-gi-Z2B">
+                            <rect key="frame" x="0.0" y="51" width="366" height="213"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="264" id="3CX-PZ-pYF"/>
+                        <constraint firstAttribute="trailing" secondItem="Cnf-gi-Z2B" secondAttribute="trailing" id="6Lr-vY-Gtq"/>
+                        <constraint firstItem="Tg9-Dw-ARU" firstAttribute="leading" secondItem="2Im-SS-bHC" secondAttribute="leading" constant="24" id="IpJ-He-RJE"/>
+                        <constraint firstItem="Tg9-Dw-ARU" firstAttribute="top" secondItem="2Im-SS-bHC" secondAttribute="top" constant="16" id="OSE-lK-a1J"/>
+                        <constraint firstItem="UKJ-Pz-1CA" firstAttribute="leading" secondItem="2Im-SS-bHC" secondAttribute="leading" id="VbB-FW-Wy8"/>
+                        <constraint firstAttribute="bottom" secondItem="Cnf-gi-Z2B" secondAttribute="bottom" id="ZGn-ig-5PT"/>
+                        <constraint firstAttribute="trailing" secondItem="UKJ-Pz-1CA" secondAttribute="trailing" id="fXo-W3-Bzn"/>
+                        <constraint firstItem="UKJ-Pz-1CA" firstAttribute="top" secondItem="2Im-SS-bHC" secondAttribute="top" constant="50" id="gFc-8W-1Fw"/>
+                        <constraint firstItem="Cnf-gi-Z2B" firstAttribute="leading" secondItem="2Im-SS-bHC" secondAttribute="leading" id="jTv-DH-Gqj"/>
+                        <constraint firstItem="Cnf-gi-Z2B" firstAttribute="top" secondItem="UKJ-Pz-1CA" secondAttribute="bottom" id="qxy-UT-h0c"/>
+                        <constraint firstAttribute="trailing" secondItem="Tg9-Dw-ARU" secondAttribute="trailing" constant="24" id="rwJ-cH-dnw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="2Im-SS-bHC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="24" id="U4Y-YK-ffZ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2Im-SS-bHC" secondAttribute="trailing" constant="24" id="Z4E-vp-RPk"/>
+                <constraint firstItem="2Im-SS-bHC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="24" id="izf-0q-2Y1"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="153"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

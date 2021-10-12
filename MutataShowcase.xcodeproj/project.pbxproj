@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0F6D418B60482FA7D18AFD0 /* Pods_MutataShowcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756694C2B6C4591BE31E72C4 /* Pods_MutataShowcase.framework */; };
+		F13E7C2A271085B90051164D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C29271085B90051164D /* AppDelegate.swift */; };
+		F13E7C33271085BA0051164D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C32271085BA0051164D /* Assets.xcassets */; };
+		F13E7C36271085BA0051164D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C34271085BA0051164D /* LaunchScreen.storyboard */; };
+		F13E7C422710868E0051164D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C412710868E0051164D /* GoogleService-Info.plist */; };
+		F13E7C94271086B70051164D /* GeneralClassListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C55271086B70051164D /* GeneralClassListCell.swift */; };
+		F13E7C95271086B70051164D /* ListPluginClassesDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C57271086B70051164D /* ListPluginClassesDatasource.swift */; };
+		F13E7C96271086B70051164D /* CNContactsDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C59271086B70051164D /* CNContactsDemoViewController.xib */; };
+		F13E7C97271086B70051164D /* YTPlayerViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C5A271086B70051164D /* YTPlayerViewDemoViewController.swift */; };
+		F13E7C98271086B70051164D /* YTPlayerViewDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C5B271086B70051164D /* YTPlayerViewDemoViewController.xib */; };
+		F13E7C99271086B70051164D /* LottieDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C5C271086B70051164D /* LottieDemoViewController.swift */; };
+		F13E7C9A271086B70051164D /* CNContactsDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C5D271086B70051164D /* CNContactsDemoViewController.swift */; };
+		F13E7C9B271086B70051164D /* CNContactsDemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C5E271086B70051164D /* CNContactsDemoCell.xib */; };
+		F13E7C9C271086B70051164D /* LottieDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C5F271086B70051164D /* LottieDemoViewController.xib */; };
+		F13E7C9D271086B70051164D /* MBProgressHUDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C60271086B70051164D /* MBProgressHUDViewController.xib */; };
+		F13E7C9E271086B70051164D /* CNContactsDemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C61271086B70051164D /* CNContactsDemoCell.swift */; };
+		F13E7C9F271086B70051164D /* MBProgressHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C62271086B70051164D /* MBProgressHUDViewController.swift */; };
+		F13E7CA0271086B70051164D /* ListPluginClassesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C63271086B70051164D /* ListPluginClassesViewController.xib */; };
+		F13E7CA1271086B70051164D /* ListPluginClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C64271086B70051164D /* ListPluginClassesViewController.swift */; };
+		F13E7CA2271086B70051164D /* ListUIKitClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C66271086B70051164D /* ListUIKitClassesViewController.swift */; };
+		F13E7CA3271086B70051164D /* ListUIKitClassesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C67271086B70051164D /* ListUIKitClassesViewController.xib */; };
+		F13E7CA4271086B70051164D /* UIButtonDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C69271086B70051164D /* UIButtonDemoViewController.xib */; };
+		F13E7CA5271086B70051164D /* UIImageViewDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C6A271086B70051164D /* UIImageViewDemoViewController.xib */; };
+		F13E7CA6271086B70051164D /* UISwitchDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C6B271086B70051164D /* UISwitchDemoViewController.xib */; };
+		F13E7CA7271086B70051164D /* UIImageViewDemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C6C271086B70051164D /* UIImageViewDemoCell.swift */; };
+		F13E7CA8271086B70051164D /* UIViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C6D271086B70051164D /* UIViewDemoViewController.swift */; };
+		F13E7CA9271086B70051164D /* UIButtonDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C6E271086B70051164D /* UIButtonDemoViewController.swift */; };
+		F13E7CAA271086B70051164D /* UITextFieldDemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C6F271086B70051164D /* UITextFieldDemoCell.xib */; };
+		F13E7CAB271086B70051164D /* UILabelDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C70271086B70051164D /* UILabelDemoViewController.xib */; };
+		F13E7CAC271086B70051164D /* UIActivityViewControllerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C71271086B70051164D /* UIActivityViewControllerDemoViewController.swift */; };
+		F13E7CAD271086B70051164D /* UILabelDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C72271086B70051164D /* UILabelDemoViewController.swift */; };
+		F13E7CAE271086B70051164D /* UISwitchDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C73271086B70051164D /* UISwitchDemoViewController.swift */; };
+		F13E7CAF271086B70051164D /* UITextFieldDemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C74271086B70051164D /* UITextFieldDemoCell.swift */; };
+		F13E7CB0271086B70051164D /* UITextFieldDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C75271086B70051164D /* UITextFieldDemoViewController.swift */; };
+		F13E7CB1271086B70051164D /* UIImageViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C76271086B70051164D /* UIImageViewDemoViewController.swift */; };
+		F13E7CB2271086B70051164D /* UITextFieldDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C77271086B70051164D /* UITextFieldDemoViewController.xib */; };
+		F13E7CB3271086B70051164D /* UIViewDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C78271086B70051164D /* UIViewDemoViewController.xib */; };
+		F13E7CB4271086B70051164D /* UISegmentedControlDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C79271086B70051164D /* UISegmentedControlDemoViewController.swift */; };
+		F13E7CB5271086B70051164D /* UITextViewDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C7A271086B70051164D /* UITextViewDemoViewController.xib */; };
+		F13E7CB6271086B70051164D /* UIImagePickerControllerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C7B271086B70051164D /* UIImagePickerControllerDemoViewController.swift */; };
+		F13E7CB7271086B70051164D /* UISegmentedControlDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C7C271086B70051164D /* UISegmentedControlDemoViewController.xib */; };
+		F13E7CB8271086B70051164D /* UIAlertControllerDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C7D271086B70051164D /* UIAlertControllerDemoViewController.xib */; };
+		F13E7CB9271086B70051164D /* UITextViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C7E271086B70051164D /* UITextViewDemoViewController.swift */; };
+		F13E7CBA271086B70051164D /* UIImageViewDemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C7F271086B70051164D /* UIImageViewDemoCell.xib */; };
+		F13E7CBB271086B70051164D /* UIAlertControllerDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C80271086B70051164D /* UIAlertControllerDemoViewController.swift */; };
+		F13E7CBC271086B70051164D /* UIImagePickerControllerDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C81271086B70051164D /* UIImagePickerControllerDemoViewController.xib */; };
+		F13E7CBD271086B70051164D /* UIActivityViewControllerDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C82271086B70051164D /* UIActivityViewControllerDemoViewController.xib */; };
+		F13E7CBE271086B70051164D /* ListUIKitClassesDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C83271086B70051164D /* ListUIKitClassesDatasource.swift */; };
+		F13E7CBF271086B70051164D /* GeneralClassListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C84271086B70051164D /* GeneralClassListCell.xib */; };
+		F13E7CC0271086B70051164D /* FirebaseStorageDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C87271086B70051164D /* FirebaseStorageDemoViewController.xib */; };
+		F13E7CC1271086B70051164D /* FirebaseStorageDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C88271086B70051164D /* FirebaseStorageDemoViewController.swift */; };
+		F13E7CC2271086B70051164D /* FirebaseStorageDemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C89271086B70051164D /* FirebaseStorageDemoCell.swift */; };
+		F13E7CC3271086B70051164D /* FirebaseStorageDemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C8A271086B70051164D /* FirebaseStorageDemoCell.xib */; };
+		F13E7CC4271086B70051164D /* FirebaseStorageDemoDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C8B271086B70051164D /* FirebaseStorageDemoDatasource.swift */; };
+		F13E7CC5271086B70051164D /* FirebaseAuthenticationDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C8D271086B70051164D /* FirebaseAuthenticationDemoViewController.xib */; };
+		F13E7CC6271086B70051164D /* FirebaseAuthenticationDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C8E271086B70051164D /* FirebaseAuthenticationDemoViewController.swift */; };
+		F13E7CC7271086B70051164D /* GeneralClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C8F271086B70051164D /* GeneralClass.swift */; };
+		F13E7CC8271086B70051164D /* ApiDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C91271086B70051164D /* ApiDemoViewController.swift */; };
+		F13E7CC9271086B70051164D /* ApiDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13E7C92271086B70051164D /* ApiDemoViewController.xib */; };
+		F13E7CCA271086B70051164D /* UIViewControllerRequiredInitProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E7C93271086B70051164D /* UIViewControllerRequiredInitProtocol.swift */; };
+		F13E7CED271089E40051164D /* RobotoMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F13E7CE6271089E40051164D /* RobotoMono-Light.ttf */; };
+		F13E7CEF271089E40051164D /* RobotoMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F13E7CE8271089E40051164D /* RobotoMono-Italic.ttf */; };
+		F13E7CF0271089E40051164D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F13E7CEA271089E40051164D /* Roboto-Regular.ttf */; };
+		F13E7CF2271089E40051164D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F13E7CEC271089E40051164D /* Roboto-Bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		756694C2B6C4591BE31E72C4 /* Pods_MutataShowcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MutataShowcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D648341F182B114E57CB3D67 /* Pods-MutataShowcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MutataShowcase.debug.xcconfig"; path = "Target Support Files/Pods-MutataShowcase/Pods-MutataShowcase.debug.xcconfig"; sourceTree = "<group>"; };
+		F13E7C26271085B90051164D /* MutataShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutataShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13E7C29271085B90051164D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F13E7C32271085BA0051164D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F13E7C35271085BA0051164D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F13E7C37271085BA0051164D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13E7C412710868E0051164D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F13E7C55271086B70051164D /* GeneralClassListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralClassListCell.swift; sourceTree = "<group>"; };
+		F13E7C57271086B70051164D /* ListPluginClassesDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPluginClassesDatasource.swift; sourceTree = "<group>"; };
+		F13E7C59271086B70051164D /* CNContactsDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CNContactsDemoViewController.xib; sourceTree = "<group>"; };
+		F13E7C5A271086B70051164D /* YTPlayerViewDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTPlayerViewDemoViewController.swift; sourceTree = "<group>"; };
+		F13E7C5B271086B70051164D /* YTPlayerViewDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YTPlayerViewDemoViewController.xib; sourceTree = "<group>"; };
+		F13E7C5C271086B70051164D /* LottieDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieDemoViewController.swift; sourceTree = "<group>"; };
+		F13E7C5D271086B70051164D /* CNContactsDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactsDemoViewController.swift; sourceTree = "<group>"; };
+		F13E7C5E271086B70051164D /* CNContactsDemoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CNContactsDemoCell.xib; sourceTree = "<group>"; };
+		F13E7C5F271086B70051164D /* LottieDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LottieDemoViewController.xib; sourceTree = "<group>"; };
+		F13E7C60271086B70051164D /* MBProgressHUDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBProgressHUDViewController.xib; sourceTree = "<group>"; };
+		F13E7C61271086B70051164D /* CNContactsDemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNContactsDemoCell.swift; sourceTree = "<group>"; };
+		F13E7C62271086B70051164D /* MBProgressHUDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBProgressHUDViewController.swift; sourceTree = "<group>"; };
+		F13E7C63271086B70051164D /* ListPluginClassesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListPluginClassesViewController.xib; sourceTree = "<group>"; };
+		F13E7C64271086B70051164D /* ListPluginClassesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPluginClassesViewController.swift; sourceTree = "<group>"; };
+		F13E7C66271086B70051164D /* ListUIKitClassesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListUIKitClassesViewController.swift; sourceTree = "<group>"; };
+		F13E7C67271086B70051164D /* ListUIKitClassesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListUIKitClassesViewController.xib; sourceTree = "<group>"; };
+		F13E7C69271086B70051164D /* UIButtonDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIButtonDemoViewController.xib; sourceTree = "<group>"; };
+		F13E7C6A271086B70051164D /* UIImageViewDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIImageViewDemoViewController.xib; sourceTree = "<group>"; };
+		F13E7C6B271086B70051164D /* UISwitchDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UISwitchDemoViewController.xib; sourceTree = "<group>"; };
+		F13E7C6C271086B70051164D /* UIImageViewDemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewDemoCell.swift; sourceTree = "<group>"; };
+		F13E7C6D271086B70051164D /* UIViewDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewDemoViewController.swift; sourceTree = "<group>"; };
+		F13E7C6E271086B70051164D /* UIButtonDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonDemoViewController.swift; sourceTree = "<group>"; };
+		F13E7C6F271086B70051164D /* UITextFieldDemoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UITextFieldDemoCell.xib; sourceTree = "<group>"; };
+		F13E7C70271086B70051164D /* UILabelDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UILabelDemoViewController.xib; sourceTree = "<group>"; };
+		F13E7C71271086B70051164D /* UIActivityViewControllerDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIActivityViewControllerDemoViewController.swift; sourceTree = "<group>"; };
+		F13E7C72271086B70051164D /* UILabelDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelDemoViewController.swift; sourceTree = "<group>"; };
+		F13E7C73271086B70051164D /* UISwitchDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISwitchDemoViewController.swift; sourceTree = "<group>"; };
+		F13E7C74271086B70051164D /* UITextFieldDemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldDemoCell.swift; sourceTree = "<group>"; };
+		F13E7C75271086B70051164D /* UITextFieldDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldDemoViewController.swift; sourceTree = "<group>"; };
+		F13E7C76271086B70051164D /* UIImageViewDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewDemoViewController.swift; sourceTree = "<group>"; };
+		F13E7C77271086B70051164D /* UITextFieldDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UITextFieldDemoViewController.xib; sourceTree = "<group>"; };
+		F13E7C78271086B70051164D /* UIViewDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIViewDemoViewController.xib; sourceTree = "<group>"; };
+		F13E7C79271086B70051164D /* UISegmentedControlDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISegmentedControlDemoViewController.swift; sourceTree = "<group>"; };
+		F13E7C7A271086B70051164D /* UITextViewDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UITextViewDemoViewController.xib; sourceTree = "<group>"; };
+		F13E7C7B271086B70051164D /* UIImagePickerControllerDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImagePickerControllerDemoViewController.swift; sourceTree = "<group>"; };
+		F13E7C7C271086B70051164D /* UISegmentedControlDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UISegmentedControlDemoViewController.xib; sourceTree = "<group>"; };
+		F13E7C7D271086B70051164D /* UIAlertControllerDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIAlertControllerDemoViewController.xib; sourceTree = "<group>"; };
+		F13E7C7E271086B70051164D /* UITextViewDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewDemoViewController.swift; sourceTree = "<group>"; };
+		F13E7C7F271086B70051164D /* UIImageViewDemoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIImageViewDemoCell.xib; sourceTree = "<group>"; };
+		F13E7C80271086B70051164D /* UIAlertControllerDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertControllerDemoViewController.swift; sourceTree = "<group>"; };
+		F13E7C81271086B70051164D /* UIImagePickerControllerDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIImagePickerControllerDemoViewController.xib; sourceTree = "<group>"; };
+		F13E7C82271086B70051164D /* UIActivityViewControllerDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIActivityViewControllerDemoViewController.xib; sourceTree = "<group>"; };
+		F13E7C83271086B70051164D /* ListUIKitClassesDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListUIKitClassesDatasource.swift; sourceTree = "<group>"; };
+		F13E7C84271086B70051164D /* GeneralClassListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralClassListCell.xib; sourceTree = "<group>"; };
+		F13E7C87271086B70051164D /* FirebaseStorageDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirebaseStorageDemoViewController.xib; sourceTree = "<group>"; };
+		F13E7C88271086B70051164D /* FirebaseStorageDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseStorageDemoViewController.swift; sourceTree = "<group>"; };
+		F13E7C89271086B70051164D /* FirebaseStorageDemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseStorageDemoCell.swift; sourceTree = "<group>"; };
+		F13E7C8A271086B70051164D /* FirebaseStorageDemoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirebaseStorageDemoCell.xib; sourceTree = "<group>"; };
+		F13E7C8B271086B70051164D /* FirebaseStorageDemoDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseStorageDemoDatasource.swift; sourceTree = "<group>"; };
+		F13E7C8D271086B70051164D /* FirebaseAuthenticationDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirebaseAuthenticationDemoViewController.xib; sourceTree = "<group>"; };
+		F13E7C8E271086B70051164D /* FirebaseAuthenticationDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAuthenticationDemoViewController.swift; sourceTree = "<group>"; };
+		F13E7C8F271086B70051164D /* GeneralClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralClass.swift; sourceTree = "<group>"; };
+		F13E7C91271086B70051164D /* ApiDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiDemoViewController.swift; sourceTree = "<group>"; };
+		F13E7C92271086B70051164D /* ApiDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApiDemoViewController.xib; sourceTree = "<group>"; };
+		F13E7C93271086B70051164D /* UIViewControllerRequiredInitProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerRequiredInitProtocol.swift; sourceTree = "<group>"; };
+		F13E7CE6271089E40051164D /* RobotoMono-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Light.ttf"; sourceTree = "<group>"; };
+		F13E7CE7271089E40051164D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		F13E7CE8271089E40051164D /* RobotoMono-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Italic.ttf"; sourceTree = "<group>"; };
+		F13E7CEA271089E40051164D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		F13E7CEB271089E40051164D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		F13E7CEC271089E40051164D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		FEF17EA13C5E95A9ABBA9A84 /* Pods-MutataShowcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MutataShowcase.release.xcconfig"; path = "Target Support Files/Pods-MutataShowcase/Pods-MutataShowcase.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13E7C23271085B90051164D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F6D418B60482FA7D18AFD0 /* Pods_MutataShowcase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E38A427774340662E12B42C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				756694C2B6C4591BE31E72C4 /* Pods_MutataShowcase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD6954DD61D67409CEF56634 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D648341F182B114E57CB3D67 /* Pods-MutataShowcase.debug.xcconfig */,
+				FEF17EA13C5E95A9ABBA9A84 /* Pods-MutataShowcase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F13E7C1D271085B90051164D = {
+			isa = PBXGroup;
+			children = (
+				F13E7C28271085B90051164D /* MutataShowcase */,
+				F13E7C27271085B90051164D /* Products */,
+				BD6954DD61D67409CEF56634 /* Pods */,
+				3E38A427774340662E12B42C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F13E7C27271085B90051164D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13E7C26271085B90051164D /* MutataShowcase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13E7C28271085B90051164D /* MutataShowcase */ = {
+			isa = PBXGroup;
+			children = (
+				F13E7C29271085B90051164D /* AppDelegate.swift */,
+				F13E7C32271085BA0051164D /* Assets.xcassets */,
+				F13E7C412710868E0051164D /* GoogleService-Info.plist */,
+				F13E7C34271085BA0051164D /* LaunchScreen.storyboard */,
+				F13E7C37271085BA0051164D /* Info.plist */,
+				F13E7CE4271089E40051164D /* Fonts */,
+				F13E7C54271086B70051164D /* ViewControllers */,
+			);
+			path = MutataShowcase;
+			sourceTree = "<group>";
+		};
+		F13E7C54271086B70051164D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F13E7C90271086B70051164D /* API */,
+				F13E7C85271086B70051164D /* Firebase */,
+				F13E7C8F271086B70051164D /* GeneralClass.swift */,
+				F13E7C55271086B70051164D /* GeneralClassListCell.swift */,
+				F13E7C84271086B70051164D /* GeneralClassListCell.xib */,
+				F13E7C56271086B70051164D /* Plugins */,
+				F13E7C65271086B70051164D /* UIKit */,
+				F13E7C93271086B70051164D /* UIViewControllerRequiredInitProtocol.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F13E7C56271086B70051164D /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				F13E7C57271086B70051164D /* ListPluginClassesDatasource.swift */,
+				F13E7C64271086B70051164D /* ListPluginClassesViewController.swift */,
+				F13E7C63271086B70051164D /* ListPluginClassesViewController.xib */,
+				F13E7C58271086B70051164D /* PluginClasses */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		F13E7C58271086B70051164D /* PluginClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F13E7C61271086B70051164D /* CNContactsDemoCell.swift */,
+				F13E7C5E271086B70051164D /* CNContactsDemoCell.xib */,
+				F13E7C5D271086B70051164D /* CNContactsDemoViewController.swift */,
+				F13E7C59271086B70051164D /* CNContactsDemoViewController.xib */,
+				F13E7C5C271086B70051164D /* LottieDemoViewController.swift */,
+				F13E7C5F271086B70051164D /* LottieDemoViewController.xib */,
+				F13E7C62271086B70051164D /* MBProgressHUDViewController.swift */,
+				F13E7C60271086B70051164D /* MBProgressHUDViewController.xib */,
+				F13E7C5A271086B70051164D /* YTPlayerViewDemoViewController.swift */,
+				F13E7C5B271086B70051164D /* YTPlayerViewDemoViewController.xib */,
+			);
+			path = PluginClasses;
+			sourceTree = "<group>";
+		};
+		F13E7C65271086B70051164D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F13E7C83271086B70051164D /* ListUIKitClassesDatasource.swift */,
+				F13E7C66271086B70051164D /* ListUIKitClassesViewController.swift */,
+				F13E7C67271086B70051164D /* ListUIKitClassesViewController.xib */,
+				F13E7C68271086B70051164D /* UIKitClassDemo */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		F13E7C68271086B70051164D /* UIKitClassDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F13E7C71271086B70051164D /* UIActivityViewControllerDemoViewController.swift */,
+				F13E7C82271086B70051164D /* UIActivityViewControllerDemoViewController.xib */,
+				F13E7C80271086B70051164D /* UIAlertControllerDemoViewController.swift */,
+				F13E7C7D271086B70051164D /* UIAlertControllerDemoViewController.xib */,
+				F13E7C6E271086B70051164D /* UIButtonDemoViewController.swift */,
+				F13E7C69271086B70051164D /* UIButtonDemoViewController.xib */,
+				F13E7C7B271086B70051164D /* UIImagePickerControllerDemoViewController.swift */,
+				F13E7C81271086B70051164D /* UIImagePickerControllerDemoViewController.xib */,
+				F13E7C6C271086B70051164D /* UIImageViewDemoCell.swift */,
+				F13E7C7F271086B70051164D /* UIImageViewDemoCell.xib */,
+				F13E7C76271086B70051164D /* UIImageViewDemoViewController.swift */,
+				F13E7C6A271086B70051164D /* UIImageViewDemoViewController.xib */,
+				F13E7C72271086B70051164D /* UILabelDemoViewController.swift */,
+				F13E7C70271086B70051164D /* UILabelDemoViewController.xib */,
+				F13E7C79271086B70051164D /* UISegmentedControlDemoViewController.swift */,
+				F13E7C7C271086B70051164D /* UISegmentedControlDemoViewController.xib */,
+				F13E7C73271086B70051164D /* UISwitchDemoViewController.swift */,
+				F13E7C6B271086B70051164D /* UISwitchDemoViewController.xib */,
+				F13E7C74271086B70051164D /* UITextFieldDemoCell.swift */,
+				F13E7C6F271086B70051164D /* UITextFieldDemoCell.xib */,
+				F13E7C75271086B70051164D /* UITextFieldDemoViewController.swift */,
+				F13E7C77271086B70051164D /* UITextFieldDemoViewController.xib */,
+				F13E7C7E271086B70051164D /* UITextViewDemoViewController.swift */,
+				F13E7C7A271086B70051164D /* UITextViewDemoViewController.xib */,
+				F13E7C6D271086B70051164D /* UIViewDemoViewController.swift */,
+				F13E7C78271086B70051164D /* UIViewDemoViewController.xib */,
+			);
+			path = UIKitClassDemo;
+			sourceTree = "<group>";
+		};
+		F13E7C85271086B70051164D /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				F13E7C86271086B70051164D /* Storage */,
+				F13E7C8C271086B70051164D /* Authentication */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		F13E7C86271086B70051164D /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				F13E7C87271086B70051164D /* FirebaseStorageDemoViewController.xib */,
+				F13E7C88271086B70051164D /* FirebaseStorageDemoViewController.swift */,
+				F13E7C89271086B70051164D /* FirebaseStorageDemoCell.swift */,
+				F13E7C8A271086B70051164D /* FirebaseStorageDemoCell.xib */,
+				F13E7C8B271086B70051164D /* FirebaseStorageDemoDatasource.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		F13E7C8C271086B70051164D /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F13E7C8D271086B70051164D /* FirebaseAuthenticationDemoViewController.xib */,
+				F13E7C8E271086B70051164D /* FirebaseAuthenticationDemoViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F13E7C90271086B70051164D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F13E7C91271086B70051164D /* ApiDemoViewController.swift */,
+				F13E7C92271086B70051164D /* ApiDemoViewController.xib */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F13E7CE4271089E40051164D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F13E7CE5271089E40051164D /* RobotoMono */,
+				F13E7CE9271089E40051164D /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F13E7CE5271089E40051164D /* RobotoMono */ = {
+			isa = PBXGroup;
+			children = (
+				F13E7CE6271089E40051164D /* RobotoMono-Light.ttf */,
+				F13E7CE7271089E40051164D /* LICENSE.txt */,
+				F13E7CE8271089E40051164D /* RobotoMono-Italic.ttf */,
+			);
+			path = RobotoMono;
+			sourceTree = "<group>";
+		};
+		F13E7CE9271089E40051164D /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				F13E7CEA271089E40051164D /* Roboto-Regular.ttf */,
+				F13E7CEB271089E40051164D /* LICENSE.txt */,
+				F13E7CEC271089E40051164D /* Roboto-Bold.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13E7C25271085B90051164D /* MutataShowcase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13E7C3A271085BA0051164D /* Build configuration list for PBXNativeTarget "MutataShowcase" */;
+			buildPhases = (
+				BFEF96C4D916E9345091B5D9 /* [CP] Check Pods Manifest.lock */,
+				F13E7C22271085B90051164D /* Sources */,
+				F13E7C23271085B90051164D /* Frameworks */,
+				F13E7C24271085B90051164D /* Resources */,
+				1209A838BF6AD1B2B8BB5613 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutataShowcase;
+			productName = MutataShowcase;
+			productReference = F13E7C26271085B90051164D /* MutataShowcase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13E7C1E271085B90051164D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F13E7C25271085B90051164D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F13E7C21271085B90051164D /* Build configuration list for PBXProject "MutataShowcase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F13E7C1D271085B90051164D;
+			productRefGroup = F13E7C27271085B90051164D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13E7C25271085B90051164D /* MutataShowcase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13E7C24271085B90051164D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13E7C96271086B70051164D /* CNContactsDemoViewController.xib in Resources */,
+				F13E7C36271085BA0051164D /* LaunchScreen.storyboard in Resources */,
+				F13E7CF0271089E40051164D /* Roboto-Regular.ttf in Resources */,
+				F13E7CC5271086B70051164D /* FirebaseAuthenticationDemoViewController.xib in Resources */,
+				F13E7CBF271086B70051164D /* GeneralClassListCell.xib in Resources */,
+				F13E7CF2271089E40051164D /* Roboto-Bold.ttf in Resources */,
+				F13E7CB7271086B70051164D /* UISegmentedControlDemoViewController.xib in Resources */,
+				F13E7C33271085BA0051164D /* Assets.xcassets in Resources */,
+				F13E7CBC271086B70051164D /* UIImagePickerControllerDemoViewController.xib in Resources */,
+				F13E7CC3271086B70051164D /* FirebaseStorageDemoCell.xib in Resources */,
+				F13E7C422710868E0051164D /* GoogleService-Info.plist in Resources */,
+				F13E7CB8271086B70051164D /* UIAlertControllerDemoViewController.xib in Resources */,
+				F13E7CB5271086B70051164D /* UITextViewDemoViewController.xib in Resources */,
+				F13E7CA6271086B70051164D /* UISwitchDemoViewController.xib in Resources */,
+				F13E7CBD271086B70051164D /* UIActivityViewControllerDemoViewController.xib in Resources */,
+				F13E7CB3271086B70051164D /* UIViewDemoViewController.xib in Resources */,
+				F13E7CED271089E40051164D /* RobotoMono-Light.ttf in Resources */,
+				F13E7CBA271086B70051164D /* UIImageViewDemoCell.xib in Resources */,
+				F13E7CA0271086B70051164D /* ListPluginClassesViewController.xib in Resources */,
+				F13E7CC9271086B70051164D /* ApiDemoViewController.xib in Resources */,
+				F13E7CEF271089E40051164D /* RobotoMono-Italic.ttf in Resources */,
+				F13E7C9D271086B70051164D /* MBProgressHUDViewController.xib in Resources */,
+				F13E7CA3271086B70051164D /* ListUIKitClassesViewController.xib in Resources */,
+				F13E7CAA271086B70051164D /* UITextFieldDemoCell.xib in Resources */,
+				F13E7CAB271086B70051164D /* UILabelDemoViewController.xib in Resources */,
+				F13E7C9B271086B70051164D /* CNContactsDemoCell.xib in Resources */,
+				F13E7CA5271086B70051164D /* UIImageViewDemoViewController.xib in Resources */,
+				F13E7C98271086B70051164D /* YTPlayerViewDemoViewController.xib in Resources */,
+				F13E7CB2271086B70051164D /* UITextFieldDemoViewController.xib in Resources */,
+				F13E7CA4271086B70051164D /* UIButtonDemoViewController.xib in Resources */,
+				F13E7CC0271086B70051164D /* FirebaseStorageDemoViewController.xib in Resources */,
+				F13E7C9C271086B70051164D /* LottieDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1209A838BF6AD1B2B8BB5613 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MutataShowcase/Pods-MutataShowcase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MutataShowcase/Pods-MutataShowcase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MutataShowcase/Pods-MutataShowcase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFEF96C4D916E9345091B5D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MutataShowcase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13E7C22271085B90051164D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13E7CB6271086B70051164D /* UIImagePickerControllerDemoViewController.swift in Sources */,
+				F13E7C9F271086B70051164D /* MBProgressHUDViewController.swift in Sources */,
+				F13E7CC4271086B70051164D /* FirebaseStorageDemoDatasource.swift in Sources */,
+				F13E7C97271086B70051164D /* YTPlayerViewDemoViewController.swift in Sources */,
+				F13E7CC1271086B70051164D /* FirebaseStorageDemoViewController.swift in Sources */,
+				F13E7C99271086B70051164D /* LottieDemoViewController.swift in Sources */,
+				F13E7C95271086B70051164D /* ListPluginClassesDatasource.swift in Sources */,
+				F13E7CB4271086B70051164D /* UISegmentedControlDemoViewController.swift in Sources */,
+				F13E7CA2271086B70051164D /* ListUIKitClassesViewController.swift in Sources */,
+				F13E7CB9271086B70051164D /* UITextViewDemoViewController.swift in Sources */,
+				F13E7CB1271086B70051164D /* UIImageViewDemoViewController.swift in Sources */,
+				F13E7C9A271086B70051164D /* CNContactsDemoViewController.swift in Sources */,
+				F13E7CC2271086B70051164D /* FirebaseStorageDemoCell.swift in Sources */,
+				F13E7CA8271086B70051164D /* UIViewDemoViewController.swift in Sources */,
+				F13E7CC6271086B70051164D /* FirebaseAuthenticationDemoViewController.swift in Sources */,
+				F13E7CA9271086B70051164D /* UIButtonDemoViewController.swift in Sources */,
+				F13E7CBE271086B70051164D /* ListUIKitClassesDatasource.swift in Sources */,
+				F13E7C2A271085B90051164D /* AppDelegate.swift in Sources */,
+				F13E7CA7271086B70051164D /* UIImageViewDemoCell.swift in Sources */,
+				F13E7CAF271086B70051164D /* UITextFieldDemoCell.swift in Sources */,
+				F13E7CBB271086B70051164D /* UIAlertControllerDemoViewController.swift in Sources */,
+				F13E7C94271086B70051164D /* GeneralClassListCell.swift in Sources */,
+				F13E7CC7271086B70051164D /* GeneralClass.swift in Sources */,
+				F13E7CAD271086B70051164D /* UILabelDemoViewController.swift in Sources */,
+				F13E7CC8271086B70051164D /* ApiDemoViewController.swift in Sources */,
+				F13E7CCA271086B70051164D /* UIViewControllerRequiredInitProtocol.swift in Sources */,
+				F13E7CAC271086B70051164D /* UIActivityViewControllerDemoViewController.swift in Sources */,
+				F13E7C9E271086B70051164D /* CNContactsDemoCell.swift in Sources */,
+				F13E7CB0271086B70051164D /* UITextFieldDemoViewController.swift in Sources */,
+				F13E7CAE271086B70051164D /* UISwitchDemoViewController.swift in Sources */,
+				F13E7CA1271086B70051164D /* ListPluginClassesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F13E7C34271085BA0051164D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13E7C35271085BA0051164D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F13E7C38271085BA0051164D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F13E7C39271085BA0051164D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F13E7C3B271085BA0051164D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D648341F182B114E57CB3D67 /* Pods-MutataShowcase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3B8WAURK8;
+				INFOPLIST_FILE = MutataShowcase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.kodika.mutata.showcase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F13E7C3C271085BA0051164D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEF17EA13C5E95A9ABBA9A84 /* Pods-MutataShowcase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3B8WAURK8;
+				INFOPLIST_FILE = MutataShowcase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.kodika.mutata.showcase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13E7C21271085B90051164D /* Build configuration list for PBXProject "MutataShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13E7C38271085BA0051164D /* Debug */,
+				F13E7C39271085BA0051164D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13E7C3A271085BA0051164D /* Build configuration list for PBXNativeTarget "MutataShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13E7C3B271085BA0051164D /* Debug */,
+				F13E7C3C271085BA0051164D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F13E7C1E271085B90051164D /* Project object */;
+}

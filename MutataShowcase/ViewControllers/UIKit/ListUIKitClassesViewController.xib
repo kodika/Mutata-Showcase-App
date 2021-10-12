@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListUIKitClassesViewController" customModule="MutataShowcase" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="nfu-61-7LD" id="XdX-lE-fS4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nfu-61-7LD">
+                    <rect key="frame" x="24" y="68" width="366" height="770"/>
+                    <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="NRg-PJ-pPP"/>
+                        <outlet property="delegate" destination="-1" id="BWk-gF-t3B"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="nfu-61-7LD" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="24" id="UC6-X0-pBp"/>
+                <constraint firstAttribute="trailing" secondItem="nfu-61-7LD" secondAttribute="trailing" constant="24" id="a70-bc-ovk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="nfu-61-7LD" secondAttribute="bottom" constant="24" id="nrV-QC-5Hm"/>
+                <constraint firstItem="nfu-61-7LD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="24" id="u51-lU-vot"/>
+            </constraints>
+            <point key="canvasLocation" x="141" y="135"/>
+        </view>
+    </objects>
+</document>

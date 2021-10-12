@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1005483221625-aj099lifh8cu5igbcu06tmdr7c0ccb7l.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1005483221625-aj099lifh8cu5igbcu06tmdr7c0ccb7l</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDXH3lGRIlfUUlF-oO4zr0D9Cf-fm0t3M4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1005483221625</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>io.kodika.mutata.showcase</string>
+	<key>PROJECT_ID</key>
+	<string>mutata-showcase</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mutata-showcase.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1005483221625:ios:4e66d14f25e19c7f0eaaa8</string>
+	<key>DATABASE_URL</key>
+	<string>https://mutata-showcase-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>
